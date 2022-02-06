@@ -45,6 +45,7 @@ ul {
 img {
     width: 700px;
     height: 300px;
+    box-shadow: 1px 1px 15px 5px #afafaf;
 }
 
 .main {
@@ -107,8 +108,8 @@ button {
 .box {
     width: 175px;
     height: 175px;
-    border: 3px solid #3883f6;
     border-radius: 7px;
+    box-shadow: 1px 1px 15px 5px #afafaf;
 }
 
 /* Section two ends */
@@ -159,6 +160,7 @@ button {
     justify-content: space-around;
     background-color: #3883f6;
     border-radius: 5px;
+    box-shadow: 1px 1px 15px 5px #afafaf;
     padding: 64px ;
 }
 
