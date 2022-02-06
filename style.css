@@ -150,7 +150,7 @@ button {
 .four {
     display: flex;
     justify-content: center;
-    padding: 64px;
+    padding: 128px;
 }
 
 .modal {
@@ -179,6 +179,7 @@ button {
     font-size: 14px;
     color: #d8d8d8;
 }
+
 /* Section four ends */
 
 
