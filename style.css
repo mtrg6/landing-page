@@ -42,10 +42,6 @@ ul {
     text-decoration: none;
 }
 
-.placeholder {
-    display: flex;
-}
-
 img {
     width: 700px;
     height: 300px;
@@ -58,9 +54,6 @@ img {
 }
 
 .hero-one {
-    display: flex;
-    flex-wrap: wrap;
-
     font-size: 48px;
     font-weight: 1000;
     color: #f9faf8;
@@ -85,8 +78,7 @@ button {
 }
 
 .hero-two {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 
     font-size: 36px;
     font-weight: 1000;
@@ -102,8 +94,6 @@ button {
 }
 
 .info {
-    display: flex;
-    flex-direction: column;
     max-width: 175px;
     gap: 5px;
 }
@@ -127,7 +117,6 @@ button {
 
 .three {
     display: flex;
-    flex: 1;
     justify-content: center;
     background-color: #e5e7eb;
     padding: 128px;
@@ -136,11 +125,9 @@ button {
 .quote {
     display: flex;
     justify-content: center;
-
 }
 
 .quote-text {
-    display: flex;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
@@ -160,16 +147,48 @@ button {
 
 /* Section four starts */
 
+.four {
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3883f6;
+    border-radius: 5px;
+    padding: 64px ;
+}
+
+.modal-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.modal-para {
+    text-align: center;
+    font-size: 14px;
+    color: #d8d8d8;
+}
 /* Section four ends */
 
 
 /* Footer starts */
 
 .footer {
-    background-color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1f2937;
     padding: 32px;
     color: white;
 }
