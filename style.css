@@ -55,6 +55,9 @@ img {
 }
 
 .hero-one {
+    display: flex;
+    flex-wrap: wrap;
+    
     font-size: 48px;
     font-weight: 1000;
     color: #f9faf8;
