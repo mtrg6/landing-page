@@ -1,7 +1,10 @@
+@import url('https://fonts.google.com/specimen/Roboto#standard-styles');
+
 body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
 }
 
 /* Section one start*/
@@ -79,7 +82,6 @@ button {
 .two {
     display: flex;
     justify-content: center;
-    align-content: space-between;
 }
 
 .hero-two {
@@ -125,6 +127,7 @@ button {
 
 .three {
     display: flex;
+    flex: 1;
     justify-content: center;
     background-color: #e5e7eb;
     padding: 128px;
@@ -161,5 +164,14 @@ button {
 
 
 /* Footer starts */
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    color: white;
+}
 
 /* Footer ends */
