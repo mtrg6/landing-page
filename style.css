@@ -1,5 +1,9 @@
 @import url('https://fonts.google.com/specimen/Roboto#standard-styles');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     display: flex;
@@ -17,7 +21,7 @@ body {
 }
 
 .wrapper {
-    width: 70%;
+    width: 65%;
 }
 
 .nav {
@@ -43,9 +47,8 @@ ul {
 }
 
 img {
-    width: 700px;
+    width: 600px;
     height: 300px;
-    box-shadow: 1px 1px 15px 5px #afafaf;
 }
 
 .main {
@@ -74,6 +77,7 @@ button {
 
 /* Section one end */
 
+
 /* Section two start */
 
 .two {
@@ -83,10 +87,8 @@ button {
 
 .hero-two {
     text-align: center;
-
     font-size: 36px;
     font-weight: 1000;
-
     padding: 64px 0px 64px;
 }
 
@@ -99,7 +101,6 @@ button {
 
 .info {
     max-width: 175px;
-    gap: 5px;
 }
 
 .info-text {
@@ -109,6 +110,7 @@ button {
 }
 
 .box {
+    flex-shrink: 1;
     width: 175px;
     height: 175px;
     border-radius: 7px;
@@ -116,6 +118,7 @@ button {
 }
 
 /* Section two ends */
+
 
 /* Section three starts */
 
