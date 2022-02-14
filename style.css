@@ -6,8 +6,6 @@
 
 body {
     margin: 0;
-    display: flex;
-    flex-direction: column;
     font-family: Roboto, sans-serif;
 }
 
@@ -15,13 +13,14 @@ body {
 
 .one {
     display: flex;
-    justify-content: center;
-    background-color: #1a7237;
+    background-color: #1f2937;
     color: white;
 }
 
 .wrapper {
     width: 65%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav {
@@ -82,7 +81,6 @@ button {
 
 .two {
     display: flex;
-    justify-content: center;
 }
 
 .hero-two {
@@ -111,7 +109,6 @@ button {
 
 .box {
     flex-shrink: 1;
-    width: 175px;
     height: 175px;
     border-radius: 7px;
     box-shadow: 1px 1px 15px 5px #afafaf;
@@ -124,7 +121,6 @@ button {
 
 .three {
     display: flex;
-    justify-content: center;
     background-color: #e5e7eb;
     padding: 128px;
 }
@@ -156,7 +152,6 @@ button {
 
 .four {
     display: flex;
-    justify-content: center;
     padding: 128px;
 }
 
@@ -196,7 +191,7 @@ button {
 
 .footer {
     display: flex;
-    justify-content: center;
+    text-align: center;
     align-items: center;
     background-color: #1f2937;
     padding: 32px;
